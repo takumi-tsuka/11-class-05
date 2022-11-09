@@ -350,4 +350,9 @@ a {
         color: var(--defaultBlack);
         font-size: 14px;
     }
+
+    header{
+        height: 60vh;
+    }
+    
 }
