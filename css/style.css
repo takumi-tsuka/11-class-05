@@ -315,4 +315,39 @@ a {
     padding-left: 5%;
    }
    /* ABOUT SECTION END */
+   /* aaaa aaaaa      aaaa*/
+}
+@media(min-width:600px){
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+        height: 20vh;
+        align-items: center;
+    }
+
+    nav > aside{
+        display: none;
+    }
+
+
+    nav > ul{
+        
+        display: flex;
+        /* border: 1px solid red; */
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 55%;
+        padding-top: 2vh;
+
+    }
+
+    nav li{
+        display: flex;
+        /* border: 1px solid red; */
+    }
+
+    nav a{
+        color: var(--defaultBlack);
+        font-size: 14px;
+    }
 }
