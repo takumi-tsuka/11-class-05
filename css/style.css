@@ -354,5 +354,20 @@ a {
     header{
         height: 60vh;
     }
+
+    .features{
+        padding-top: 2vh;
+    }
     
+    .features > article{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .features h3{
+        width: 70%;
+    }
+
 }
