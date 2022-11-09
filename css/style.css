@@ -122,6 +122,90 @@ a {
       row-gap: 5vh;
    }
 
+   /* FOOTER */
+   footer{
+    background-color: var(--defaultBlack);
+    row-gap: 5vh;
+    border-top: 5px solid var(--defaultColor);
+   }
+   
+   footer > article,
+   footer aside,
+   footer section,
+   footer > article > article{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vh;
+   }
+
+
+   footer a{
+    font-size: 18px;
+    color: var(--defaultGray);
+    border-radius: 50%;
+    border: 2px solid var(--defaultGray);
+    height: 4vh;
+    width: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   footer section > aside{
+    flex-direction: row;
+    column-gap: 2vh;
+   }
+
+   aside > form{
+    padding: 2%;
+    display: flex;
+   }
+
+   input{
+    padding: 2%;
+    border: none;
+    background-color: var(--lightBlack2);
+   }
+
+   [type="email"]{
+    background-color: var(--lightBlack);
+   }
+
+   input,
+   input::placeholder{
+    color: var(--defaultGray);
+   }
+
+   footer > section{
+    background-color: var(--darkerBlack);
+   }
+
+   footer > section,
+   footer > article{
+    padding: 5%;
+   }
+   footer span{
+    color: white;
+   }
+
+   footer > section{
+    border-top: 1px solid var(--lightBlack);
+   }
+
+   footer h3{
+    text-transform: uppercase;
+    color: white;
+   }
+
+   footer p{
+    color: var(--darkerGray);
+    }
+
+   
+
+
+   /* FOOTER END */
+
    /* FEATURES SECTION */
    .features {
       row-gap: 5vh;
