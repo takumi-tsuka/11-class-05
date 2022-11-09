@@ -370,4 +370,29 @@ a {
         width: 70%;
     }
 
+    .about{
+        padding: 2%;
+    }
+    .about > article{
+        justify-content: space-between;
+    }
+
+    .about aside{
+        width: 40%;
+    }
+
+    .about > section{
+        flex-direction: row;
+        column-gap: 8vh;
+    }
+
+    .about a{
+        width: 40%;
+        padding: 2%;
+    }
+
+    .about q{
+        width: 90%;
+    }
+
 }
