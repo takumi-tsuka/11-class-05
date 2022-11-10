@@ -476,12 +476,12 @@ a {
         align-items: center;
     }
     /* NAVIGATION END */
-    /* HEADER */
+    /* HEADER DESKTOP*/
     header{
         height: 60vh;
     }
-    /* HEADER END */
-    /* FEATURES  */
+    /* HEADER DESKTOP END */
+    /* FEATURES DESKTOP */
     .features{
         row-gap: 0;
         padding-top: 2vhgi;
@@ -521,5 +521,20 @@ a {
     .features a:hover p{
         color: white;
     }
-    /* FEATURES END */
+    /* FEATURES DESKTOP END */
+    /* ABOUT DESKTOP*/
+    .about {
+        align-items: center;
+    }
+
+    .about > article,
+    .about > section,
+    .about > blockquote{
+        width: 80%;
+    }
+
+    .about > blockquote{
+        box-sizing: border-box;
+    }
+    /* ABOUT DESKTOP END */
 }
