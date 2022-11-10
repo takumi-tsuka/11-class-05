@@ -318,42 +318,43 @@ a {
    /* aaaa aaaaa      aaaa*/
 }
 @media(min-width:600px){
+    /* NAVIGATION TABLET */
     nav{
+        padding: 3%;
         flex-direction: row;
-        justify-content: space-around;
-        height: 20vh;
-        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav > ul{ 
+        padding-top: 20px;
+        width: 65%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav li{
+        list-style-type: none;
+    }
+
+    nav a{
+        color: var(--lightBlack);
+    }
+
+    h1{
+        font-size: 28px;
     }
 
     nav > aside{
         display: none;
     }
+    /* NAVVIGATION TABLET END */
 
-    nav > ul{
-        
-        display: flex;
-        /* border: 1px solid red; */
-        align-items: flex-end;
-        justify-content: space-between;
-        width: 55%;
-        padding-top: 2vh;
-    }
-
-    nav li{
-        display: flex;
-        /* border: 1px solid red; */
-    }
-
-    nav a{
-        color: var(--defaultBlack);
-        font-size: 14px;
-    }
     /* HEADER */
     header{
         height: 60vh;
     }
     /* HEADER END */
-    
+
     /* FOOTER  */
     footer > article{
         padding-bottom: 2vh;
