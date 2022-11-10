@@ -463,3 +463,11 @@ a {
     /* ABOUT END */
 
 }
+
+@media(min-width:1000px){
+    /* HEADER */
+    header{
+        height: 60vh;
+    }
+    /* HEADER END */
+}
