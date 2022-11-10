@@ -470,4 +470,15 @@ a {
         height: 60vh;
     }
     /* HEADER END */
+    /* NAVIGATION */
+    nav{
+        justify-content: space-evenly;
+    }
+
+    nav > ul{
+        width: 40%;
+        padding-top: 0;
+        align-items: center;
+    }
+    /* NAVIGATION END */
 }
